@@ -1,0 +1,106 @@
+  /* Estilos globales */
+  body {
+   
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    
+  }
+  
+  /* Estilos de las secciones */ 
+
+  #inicio{
+    padding: 40px;
+    margin-bottom: 20px;
+    background-color: #FF9800;
+    text-align: center;
+   
+  }
+  #inicio img {
+    display: inline-block;
+    width: 300px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height:  auto; /* La altura se ajustará automáticamente */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;    
+  
+
+  }
+  #inicio p {
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+
+  }
+  h1 {
+    color: #ffffff;
+    font-size: 24px;
+  }
+  #habilidades{
+    padding: 40px;
+    margin-bottom: 20px;
+    background-color: #135c9c;
+
+  }
+  #proyectos{
+    padding: 40px;
+    margin-bottom: 20px;
+    background-color: #F44336;
+    
+  }
+ 
+  
+  #contacto{
+    padding: 40px;
+    margin-bottom: 20px;
+    background-color: #4CAF50;
+    text-align: center;
+  }
+  /* Estilos del encabezado */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos de las listas */
+  .redes-sociales {   
+    display: flex;
+    justify-content: center;
+    background-color: #FF9800;   
+    margin-right: 5px;
+    
+  }
+
+  .social-media-item {
+    margin: 0 10px;
+  }
+
+  .redes-sociales ul li {   
+    margin: 20px;
+   }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  /* Estilos de los elementos de lista */
+  li {
+    margin-bottom: 5px;
+  
+  } 
+  
+  /* Estilos de los enlaces */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Estilos del enlace al pasar el cursor por encima */
+  a:hover {
+    text-decoration: underline;
+  }
